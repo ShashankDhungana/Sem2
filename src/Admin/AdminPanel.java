@@ -79,5 +79,33 @@ public class AdminPanel extends javax.swing.JFrame {
         jbanner.setIcon(new javax.swing.ImageIcon(getClass().getResource("/optometrists/banner.jpg"))); // NOI18N
         jbanner.setText("jLabel1");
         jpanelbackground.add(jbanner, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 630, 240));
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jpanelbackground, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
+                                .addComponent(jpanelbackground, javax.swing.GroupLayout.PREFERRED_SIZE, 630, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 11, Short.MAX_VALUE))
+        );
+
+        pack();
+    }// </editor-fold>
+
+    private void AdminBtnActionPerformed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+    }
+
+    private void DoctorBtnActionPerformed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+    }
+
+    private void PatientBtnActionPerformed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+    }
+
 
 
