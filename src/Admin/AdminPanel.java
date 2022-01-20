@@ -52,4 +52,32 @@ public class AdminPanel extends javax.swing.JFrame {
                 DoctorBtnActionPerformed(evt);
             }
         });
+        jpanelbackground.add(DoctorBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 230, 180, 120));
+
+        AdminBtn.setBackground(new java.awt.Color(0, 146, 255));
+        AdminBtn.setText("Admin");
+        AdminBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AdminBtnActionPerformed(evt);
+            }
+        });
+        jpanelbackground.add(AdminBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 400, 180, 120));
+
+        PatientBtn.setBackground(new java.awt.Color(0, 146, 255));
+        PatientBtn.setText("Patient");
+        PatientBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PatientBtnActionPerformed(evt);
+            }
+        });
+        jpanelbackground.add(PatientBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 230, 180, 120));
+
+        jLbackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/optometrists/Background.jpg"))); // NOI18N
+        jLbackground.setText("jLabel1");
+        jpanelbackground.add(jLbackground, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 170, 630, 460));
+
+        jbanner.setIcon(new javax.swing.ImageIcon(getClass().getResource("/optometrists/banner.jpg"))); // NOI18N
+        jbanner.setText("jLabel1");
+        jpanelbackground.add(jbanner, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 630, 240));
+
 
