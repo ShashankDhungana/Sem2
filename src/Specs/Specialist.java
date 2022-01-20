@@ -139,5 +139,20 @@ public class Specialist extends javax.swing.JFrame {
 
         BackGround.setIcon(new javax.swing.ImageIcon("C:\\Users\\Omen\\Documents\\NetBeansProjects\\Optometrists\\src\\optometrists\\background image.png")); // NOI18N
         jPanel1.add(BackGround, new org.netbeans.lib.awtextra.AbsoluteConstraints(-70, 120, 800, 670));
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 758, Short.MAX_VALUE)
+        );
+
+        pack();
+    }// </editor-fold>
+
+
 
 
